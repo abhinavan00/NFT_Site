@@ -1,9 +1,40 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+
+/* HEADER */
 .header {
     background-color: #5F29A3;
     color: white;
-    padding: 10px;
+    padding: 45px;
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+h3 {
+    color: #d0aaff;
+}
+
+/* MAIN */
+main {
+    width: 620px;
+    padding: 40px 20px;
+}
+
+.sneaker-img {
+    width: 100%;
+}
+
+.link-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #5F29A3;
 }
